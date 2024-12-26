@@ -2,7 +2,7 @@
 
 // 1. Create the map
 // Set the initial view to some location, e.g., Paris
-const map = L.map('map').setView([48.8566, 2.3522], 12);
+const map = L.map('map').setView([48.8566, 2.3622], 12);
 
 // 2. Add a tile layer (OpenStreetMap)
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
