@@ -14,8 +14,9 @@ body {
   }
   
   #map {
-    width: 80%;
-    height: 400px;
+    align-items: first baseline;
+    width: 60%;
+    height: 100%;
     margin: 20px 0;
     border: 2px solid #ccc;
   }
