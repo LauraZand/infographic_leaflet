@@ -4,33 +4,31 @@
   <meta charset="UTF-8" />
   <title>Map Infographic - Leaflet</title>
   
-  <!-- Leaflet CSS (no integrity, no crossorigin) -->
+  <!-- Leaflet CSS -->
   <link
     rel="stylesheet"
     href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   />
-
+  
   <!-- Your custom CSS -->
   <link rel="stylesheet" href="style.css" />
-
-  <!-- Leaflet JS (no integrity, no crossorigin) -->
-  <script
-    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-  ></script>
-
-  <!-- Your custom JS -->
-  <script src="script.js"></script>
 </head>
 <body>
   <h1>Map Infographic (Leaflet)</h1>
   
   <!-- Map Container -->
   <div id="map"></div>
-  
+
   <!-- Information Panel -->
   <div id="info-panel">
     <img id="location-image" src="" alt="Location" />
     <div id="location-description">Click a marker for details!</div>
   </div>
+  
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  
+  <!-- Your custom JS -->
+  <script src="script.js"></script>
 </body>
 </html>
