@@ -13,11 +13,6 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // 3. Define an array of location objects
 const locations = [
   {
-    coords: [48.8566, 2.3522],
-    image: 'https://example.com/paris.jpg',
-    description: 'This is Paris, the capital of France.'
-  },
-  {
     coords: [48.8606, 2.3376],
     image: 'https://example.com/louvre.jpg',
     description: 'The Louvre Museum is the world’s largest art museum.'
