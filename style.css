@@ -14,7 +14,6 @@ body {
   }
   
   #map {
-    align-items: first baseline;
     width: 60%;
     height: 100%;
     margin: 20px 0;
